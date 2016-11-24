@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/messagesListView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@null"
+        android:divider="@null"
+        android:transcriptMode="alwaysScroll"
+        android:stackFromBottom="true">
+    </ListView>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGreyDark" />
+
+    <LinearLayout
+        android:id="@+id/llMsgCompose"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGreen"
+        android:orientation="horizontal"
+        android:weightSum="3" >
+
+        <EditText
+            android:id="@+id/inputEditText"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:background="@color/colorWhite"
+            android:textColor="#000000"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:hint="Type message"
+            android:autoText="false"
+            android:textColorHint="@color/colorGreyLight" />
+
+        <Button
+            android:id="@+id/sendButton"
+            android:layout_width="35dp"
+            android:background="@drawable/send_button"
+            android:layout_height="35dp" />
+    </LinearLayout>
+
+</LinearLayout>

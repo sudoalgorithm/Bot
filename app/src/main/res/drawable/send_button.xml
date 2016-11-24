@@ -1,0 +1,8 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+<item android:drawable="@drawable/ic_send_white" />
+<item>
+    <shape android:shape="rectangle" android:padding="10dp">
+        </shape>
+</item>
+    <item android:drawable="@drawable/ic_send_white" />
+</layer-list>
