@@ -1,4 +1,4 @@
-package ecod.dubai.workspace;
+package bpdc.kunalmalhotra.project;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

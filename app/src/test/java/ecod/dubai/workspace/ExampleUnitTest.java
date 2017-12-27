@@ -1,4 +1,4 @@
-package ecod.dubai.workspace;
+package bpdc.kunalmalhotra.workspace.cardashboard;
 
 import org.junit.Test;
 
