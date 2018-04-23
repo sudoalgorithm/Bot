@@ -24,7 +24,7 @@ public class CarDashboardBotActivity extends Activity implements View.OnClickLis
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_virtual_pharmacist);
+        setContentView(R.layout.activity_main);
 
         BBInstance = this;
 

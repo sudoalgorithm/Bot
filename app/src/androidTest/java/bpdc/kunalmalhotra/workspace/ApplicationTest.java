@@ -1,4 +1,4 @@
-package bpdc.kunalmalhotra.project;
+package bpdc.kunalmalhotra.workspace;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
