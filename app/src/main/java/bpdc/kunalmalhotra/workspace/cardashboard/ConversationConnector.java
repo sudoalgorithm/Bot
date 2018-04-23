@@ -15,9 +15,9 @@ import java.util.List;
 import java.util.Map;
 
 public class ConversationConnector {
-    private final String USERNAME = "f52c9fd8-1a4d-4663-ab80-2b9a3b1b5fac";
-    private final String PASSWORD = "O0QwexndsVgy";
-    private final String WORKSPACEID = "bf8b80ee-0843-4126-81ff-3e30908b8a7c";
+    private final String USERNAME = "f34e11fe-128b-4e99-9a1f-91d44baa9f91";
+    private final String PASSWORD = "4emu6OvBtLbj";
+    private final String WORKSPACEID = "ea66ff15-7bf6-46ac-8614-f1ac3ae49266";
     private ConversationService service;
     private Session activeSession;
     Map<String, Object> context = null;
